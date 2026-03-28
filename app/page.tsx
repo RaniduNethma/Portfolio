@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "@/app/components/header/Header";
 
 export default function Home() {
   return (
     <>
-      <h1>Ranidu Nethma</h1>
+      <Header />
     </>
   );
 }
